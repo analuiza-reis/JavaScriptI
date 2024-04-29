@@ -1,1 +1,7 @@
-alert("O Lenin é um mala!")
+idade = 25
+
+nome = "Ana Luiza"
+
+mensagem = "Sou " + nome + ", tenho " + idade + " anos."
+
+alert(mensagem)
