@@ -19,3 +19,4 @@ salarioLiquido = salarioBase + gratificacao + bonus - desconto
 //output
 mensagem = "Sou " + nome + ", tenho " + idade + " anos e ganho R$" + salarioLiquido;
 alert(mensagem);
+
