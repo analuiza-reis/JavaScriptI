@@ -1,7 +1,12 @@
-idade = 25
+//input
+anoNascimento = 1998;
+nome = "Ana Luiza";
 
-nome = "Ana Luiza"
+//processamento
+hoje = new Date();
+anoAtual = hoje.getFullYear();
+idade = 2024 - anoNascimento;
+mensagem = "Sou " + nome + ", tenho " + idade + " anos.";
 
-mensagem = "Sou " + nome + ", tenho " + idade + " anos."
-
-alert(mensagem)
+//output
+alert(mensagem);
