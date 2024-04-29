@@ -1,10 +1,11 @@
 //input
-anoNascimento = 1998;
-nome = "Ana Luiza";
-salarioBase = 1000;
-gratificacao = 500; 
-bonus = 200;
-desconto = 300;
+nome = prompt("Informe o seu nome: ");
+anoNascimento = parseInt(prompt("Informe o seu ano de nascimento:"));
+
+salarioBase = parseFloat(prompt("Infrome o salário:"));
+gratificacao = parseFloat(prompt("Infrome a gratificação:")); 
+bonus = parseFloat(prompt("Infrome o bônus:"));
+desconto = parseFloat(prompt("Infrome o desconto:"));
 
 salarioLiquido = 0;
 
